@@ -52,8 +52,8 @@ Pada soal, terdapat 3 hal yang dapat diambil sebagai premis untuk mencari jawaba
 2. kode invalid "server SOURCE ADDRESS 7812 is invalid". Pada kalimat ini, hanya tulisan "SOURCE ADDRESS 7812" yang berupa huruf kapital. Hal ini menunjukkan bahwa tulisan tersebut memiliki pesan khusus.
 3. "hasil pencarian hanya menampilkan a1 e5 u21", hasil pencarian ini juga memiliki makna khusus. Dapat dilihat bahwa a1 e5 u21 merupakan pasangan huruf dengan angka urutan huruf tersebut dalam susunan abjad.
 
-<br />
 Dari premis pertama dan ketiga, bisa diperkirakan bahwa soal ini meminta kita untuk melakukan substitusi pada suatu angka atau huruf sesuai dengan pasangan huruf dan urutan hurufnya. Pada premis kedua, "SOURCE ADDRESS" dapat dikatakan sebagai ip address dari pengirim di paket tersebut dan "7812" dapat dapat dikatakan sebagai nomor paket. Ketika ditelusuri, paket ke-7812 tersebut memiliki ip address source yaitu "104.18.14.101". Karena yang akan disubtitusi berupa angka, maka kita perlu mengubah angka tersebut ke bentuk huruf. Angka-angka pada ip tersebut dapat dipisah-pisah menjadi "10 4 18 14 10 1" dan dapat disubtitusi menjadi "JDRNJA".<br />
+
 ![7812](tangkaplayar/6.png)
 
 ## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
