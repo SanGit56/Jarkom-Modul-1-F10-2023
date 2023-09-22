@@ -1,5 +1,10 @@
 # Jarkom-Modul-1-F10-2023
 Laporan resmi praktikum modul 1 wireshark &amp; crimping mata kuliah jaringan komputer
+Kelompok: F10
+Nama anggota 1: Radhiyan M Hisan
+NRP anggota 1: 5025211166
+Nama anggota 2: Thoriq Afif Habibi
+NRP anggota 2: 5025211154
 
 ## 1. User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
 Pada FTP, aktivitas mengunggah dapat dilakukan dengan menggunakan perintah STOR sehingga pasti akan ada paket request STOR dari client pada PCAP yang telah diberikan. Paket dapat dicari dengan memberi display filter “ftp contains "STOR"”. Dari gambar tangkap layar berikut, didapatkan paket yang menunjukkan aktivitas mengunggah berada di paket ke 147.<br />
