@@ -7,10 +7,10 @@ Pada FTP, aktivitas mengunggah dapat dilakukan dengan menggunakan perintah STOR 
 Selanjutnya, kita dapat mencari respon yang diberikan oleh server dengan mengikuti tcp stream paket di atas. Di paket 149, terlihat terdapat respon yang diberikan sebagai berikut:
 ![SS paket respon](tangkaplayar/1b.png)<br /><br />
 Dari tangkap layar di atas, maka didapat seuqence dan acknowledge number dari paket tersebut sebagai berikut:
-a. Berapakah sequence number (raw) pada _packet_ yang menunjukkan aktivitas tersebut? **258040667**<br />
-b. Berapakah acknowledge number (raw) pada _packet_ yang menunjukkan aktivitas tersebut? **1044861039**<br />
-c. Berapakah sequence number (raw) pada _packet_ yang menunjukkan response dari aktivitas tersebut? **1044861039**<br />
-d. Berapakah acknowledge number (raw) pada _packet_ yang menunjukkan response dari aktivitas tersebut? **258040696**
+- Berapakah sequence number (raw) pada _packet_ yang menunjukkan aktivitas tersebut? **258040667**<br />
+- Berapakah acknowledge number (raw) pada _packet_ yang menunjukkan aktivitas tersebut? **1044861039**<br />
+- Berapakah sequence number (raw) pada _packet_ yang menunjukkan response dari aktivitas tersebut? **1044861039**<br />
+- Berapakah acknowledge number (raw) pada _packet_ yang menunjukkan response dari aktivitas tersebut? **258040696**
 
 ## 2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 Melakukan display filter dengan kueri http. Kemudian mem-follow http stream. Informasi web server yang digunakan tertera pada kolom Server.<br />
@@ -23,8 +23,8 @@ Open dan filter file:<br />
 Hasil:<br />
 ![analisis jaringan](tangkaplayar/3-b.png)<br /><br />
 Dari hasil, dapat dilihat jumlah paket dan protokol yang digunakan oleh paket-paket tersebut.
-a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? **21**<br />
-b. Protokol layer transport apa yang digunakan? **UDP**
+- Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? **21**<br />
+- Protokol layer transport apa yang digunakan? **UDP**
 
 ## 4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 Mengecek paket yang dimaksud. Informasi nilai checksum ada di bawah dropdown layer transport, UDP.<br />
@@ -46,7 +46,7 @@ Pada soal, terdapat 3 hal yang dapat diambil sebagai premis untuk mencari jawaba
 1. Terdapat beberapa kata yang memuat huruf kapital, yaitu "Seorang", "Udin", "Berteman", "SlameT", "Ia", "valoranT", "terdUga", "Sebuah", dan "Invalid". Kesembilan huruf besar pada 8 kata tersebut jika disatukan akan membentuk kata "SUBSTITUSI".
 2. kode invalid "server SOURCE ADDRESS 7812 is invalid". Pada kalimat ini, hanya tulisan "SOURCE ADDRESS 7812" yang berupa huruf kapital. Hal ini menunjukkan bahwa tulisan tersebut memiliki pesan khusus.
 3. "hasil pencarian hanya menampilkan a1 e5 u21", hasil pencarian ini juga memiliki makna khusus. Dapat dilihat bahwa a1 e5 u21 merupakan pasangan huruf dengan angka urutan huruf tersebut dalam susunan abjad.
-Dari premis pertama dan ketiga, bisa diperkirakan bahwa soal ini meminta kita untuk melakukan subtitusi pada suatu angka atau huruf sesuai dengan pasangan huruf dan urutan hurufnya. Pada premis kedua, "7812" dapat dapat dikatakan sebagai nomor paket dan "SOURCE ADDRESS" dapat dikatakan sebagai ip address dari pengirim di paket tersebut. Ketika ditelusuri, paket tersebut memiliki ip address source yaitu "104.18.14.101". Karena yang akan disubtitusi berupa angka, maka kita perlu mengubah angka tersebut ke bentuk huruf. Angka-angka pada ip tersebut dapat dipisah-pisah menjadi "10 4 18 14 10 1" dan dapat disubtitusi menjadi "JDRNJA".<br />
+Dari premis pertama dan ketiga, bisa diperkirakan bahwa soal ini meminta kita untuk melakukan substitusi pada suatu angka atau huruf sesuai dengan pasangan huruf dan urutan hurufnya. Pada premis kedua, "SOURCE ADDRESS" dapat dikatakan sebagai ip address dari pengirim di paket tersebut dan "7812" dapat dapat dikatakan sebagai nomor paket. Ketika ditelusuri, paket ke-7812 tersebut memiliki ip address source yaitu "104.18.14.101". Karena yang akan disubtitusi berupa angka, maka kita perlu mengubah angka tersebut ke bentuk huruf. Angka-angka pada ip tersebut dapat dipisah-pisah menjadi "10 4 18 14 10 1" dan dapat disubtitusi menjadi "JDRNJA".<br />
 ![7812](tangkaplayar/6.png)
 
 ## 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
